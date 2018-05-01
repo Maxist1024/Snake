@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27130.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snake", "Snake\Snake.csproj", "{E14960D1-CCBD-4020-9395-83DCA3914C16}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snake.UI", "Snake.UI\Snake.UI.csproj", "{AFB64B75-D435-4A12-9DE9-5F45521A2DEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snake.Core", "Snake.Core\Snake.Core.csproj", "{E527AA17-FE24-4A7C-A621-341B3A8970DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{E14960D1-CCBD-4020-9395-83DCA3914C16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E14960D1-CCBD-4020-9395-83DCA3914C16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E14960D1-CCBD-4020-9395-83DCA3914C16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFB64B75-D435-4A12-9DE9-5F45521A2DEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFB64B75-D435-4A12-9DE9-5F45521A2DEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFB64B75-D435-4A12-9DE9-5F45521A2DEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFB64B75-D435-4A12-9DE9-5F45521A2DEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E527AA17-FE24-4A7C-A621-341B3A8970DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E527AA17-FE24-4A7C-A621-341B3A8970DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E527AA17-FE24-4A7C-A621-341B3A8970DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E527AA17-FE24-4A7C-A621-341B3A8970DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,15 @@
+﻿<Window x:Class="Snake.UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Snake.UI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="650" Width="850"
+        WindowStartupLocation="CenterScreen"
+        KeyDown="Window_KeyDown">
+    <Grid>
+        <Rectangle Height="606" Width="800" Stroke="Black"/>
+            <Grid Name="grid" Height="600" Width="800"/>
+            </Grid>
+</Window>
