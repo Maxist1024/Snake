@@ -69,7 +69,7 @@ namespace Snake.Server
                     sListener.Shutdown(SocketShutdown.Receive);
                     sListener.Close();
                 }
-                ValueTextBox = "Connection has been closed. To connect open again, must run server once again.";
+                ValueTextBox = "The connection was closed. To re-establish the connection, restart the server.";
                 _close_ButtonEnable = false;
                 ((DelegateCommand)CloseServerCommand).RaiseCanExecuteChanged();
             }
