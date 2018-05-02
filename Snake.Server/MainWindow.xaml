@@ -1,0 +1,28 @@
+﻿<Window x:Class="Snake.Server.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Snake.Server"
+        mc:Ignorable="d"
+        Title="Server Snake" Height="450" Width="366">
+    <Grid Background="#FFD7CBFD">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="4*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="4*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <TextBlock x:Name="tbStatus" TextWrapping="Wrap" Text="{Binding ValueTextBox}"  Width="163" Height="55" Grid.Column="1"/>
+        <StackPanel Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10,10,10,10">
+            <Button x:Name="Start_Button" Content="Start server"  Width="120" Command="{Binding StartServerCommand}" Background="Black" Foreground="White" Margin="10"/>
+            <Button Name="StartListen_Button" Content="Start listening" Width="120" Command="{Binding ListenServerCommand}" Background="Black" Foreground="White" Margin="10"/>
+            <Button Name="Close_Button" Content="Close connection" Width="120" Command="{Binding CloseServerCommand}" Background="Black" Foreground="White" Margin="10"/>
+        </StackPanel>
+    </Grid>
+</Window>

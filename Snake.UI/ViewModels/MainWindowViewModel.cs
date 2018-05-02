@@ -77,8 +77,8 @@ namespace Snake.UI.ViewModels
         {
             if (CheckBoardCollision())
                 return true;
-            if (CheckItselfCollision())
-                return true;
+           // if (CheckItselfCollision())
+           //     return true;
             return false;
         }
         private bool CheckBoardCollision(int SIZE = 10)
